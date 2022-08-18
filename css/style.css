@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    color: #000000;
+}
+header{
+    position:sticky;
+    top:2%;
+    left: 75%;
+}
+h3{
+    color: #686767;
+    text-transform: uppercase;
+    margin-left: 2%;
+}
+main{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align:left;
+}
+main > img{
+max-height: auto;
+max-width: 50%;
+}
+body{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+.banner{
+    max-height:30px; 
+    min-width:100%;
+    max-width: 100%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: #f0f0f0;   
+    border-top-color: #ff2c07;
+    border-bottom-color: #ff7707;
+    border-right-color: #ff7707;
+    border-left-color: #ff7707;
+    border-style: solid;
+    border-width: 1px;
+    min-width: 100%;
+    border-radius: 4px 4px 0px 0px; /* Rounded borders */
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 100%;
+    z-index: 1;   
+    background-color: #f0f0f0;
+    border-width: 1px;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-bottom-color:  #ff2c07;
+
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    border-width: 1px;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: none;
+    border-color:#ff7707;
+   }
+  
+  div > p:hover{
+    background-color:#ff7707;
+    border-left-style: solid;
+    border-color: #ff2c07;
+  }
+    /* remove style from a within p */
+  p > a {
+    text-decoration: none;
+  }
+  
+  table, th, td {
+    border: 1px solid;
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 1%;
+    border: 1px solid #ff7707; /* orange border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize:both /* Allow the user to vertically and horizontally resize */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #ffffff;
+    color: #ff7707;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green border color */
+  input[type=submit]:hover {
+    border-color: #45a049;
+    border-style: solid;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+ 
